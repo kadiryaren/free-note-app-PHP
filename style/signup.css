@@ -1,0 +1,69 @@
+*{
+    padding:0;
+    margin: 0;
+}
+body{
+    background-color: rgb(52, 54, 71);
+}
+.first{
+    height: 5vh;
+}
+#logo{
+    width: 150px;
+    margin-top: 20px;
+}
+.second{
+    height: 100vh;
+    margin-top: 70px !important;
+
+}
+
+form{
+    padding: 40px;
+    font-size: 25px;
+    color: white;
+    border: 1px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px 4px #444444 ;
+}
+.footer{
+    background-color: rgb(255, 136, 0);
+}
+
+.container-footer{
+    position: fixed;
+    bottom: 0;
+
+}
+@media screen and (max-width: 600px){
+    #logo{
+        width: 100px;
+    }
+    form{
+        box-shadow: none;
+        border: none;
+        border-radius: none;
+    }
+    .second{
+        height: 130vh;
+    }
+    .second-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-footer{
+        height: 10vh;
+
+    }
+}
+
+.activationRow{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.mail-addr{
+    color: rgb(0, 255, 0) !important;
+    padding-left: 10px !important;
+}

@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 50vh;
+    background-image: url("../images/uzay.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    width: 200px;
+    margin-top: 10px;
+}
+.button{
+    margin-right: 20px;
+}
+.increase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 15vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.second-container{
+    background-color: rgb(32, 32, 30);
+}
+.form-div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button2{
+    margin:10px;
+    margin-bottom: 20px;
+}
+.card{
+
+    margin: 10px;
+    background-color: transparent;
+}
+.card-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-decoration: dashed ;
+}
+.img{
+    width: 90%;
+    border-radius: 10px;
+}
+.second-image{
+    height: 40vw;
+    background-image: url("../images/nots2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.footer{
+    background-color: rgb(255, 136, 0);
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    #form-div{
+        display: none;
+    }
+    .increase{
+        bottom: 5vw;
+        font-size: 25px;
+    }
+    .header-row{
+        justify-content: center;
+    }
+    .second-image{
+        background-position: bottom;
+        background-size:100%;
+    }
+
+}
+@media only screen and (min-width: 600px) and (max-width: 1199px) {
+    .form-div-2{
+        display: none;
+    }
+
+
+}
+@media screen and (min-width: 1200px){
+
+    .form-div-2{
+        display: none;
+    }
+
+}

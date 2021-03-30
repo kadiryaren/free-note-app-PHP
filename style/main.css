@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(52, 54, 71);
+}
+
+#logo{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.input-title{
+    font-size: 35px !important;
+    color: white;
+}
+.send-button{
+    align-self: center;
+    width: 20vw;
+    max-width: 250px;
+    min-width: 100px;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;
+    background-color:rgb(255, 136, 0);
+    height: 1px;
+}
+
+.last-notes-title{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.content-row{
+    height: auto !important;
+    margin: 10px !important;
+    border: 1px solid rgb(255, 136, 0);
+    border-radius: 10px;
+    color: white;
+    text-align: center !important;
+}
+.content-row:hover{
+    box-shadow: 0px 0px 11px 5px rgba(255, 136, 0, .4);
+}
+.text-content{
+    padding: 20px;
+    text-align: center !important;
+}
+.footer{
+    background-color: rgb(255, 136, 0);
+}
+.container-footer{
+    position: fixed;
+    bottom: 0;
+
+}
+.delete-form{
+    margin-top: 10px;
+    
+}
+.change-button{
+    margin-top: 10px;
+    margin-left: 1rem ;
+}
+.data-display{
+    padding-bottom: 20vh !important;
+}
+.update-input{
+    
+    background-color: transparent !important;
+    height: auto;
+    color: white;
+    border: none;
+    text-align: center;
+    
+    display: block !important;
+    overflow: hidden !important;
+    resize: none !important;
+    
+}
+.update-input:focus{
+    border: none !important;
+    color: white !important;
+    height: auto;
+}
+
+#comment{
+    background-color: transparent !important;
+    color: white;
+    text-align: center;
+    font-size:1.5em !important;
+}
+#comment:focus{
+    background-color: transparent !important;
+    color: white;
+    text-align: center;
+    font-size:1.5em !important;
+}
